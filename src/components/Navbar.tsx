@@ -4,13 +4,14 @@ import * as React from "react";
 import {useEffect, useState} from "react";
 import Button from "./ui/Button.tsx";
 
-const navLinks = [{name: "Home", href: "#home"}, {name: "Features", href: "#features"}, {
-    name: "Courses",
-    href: "#courses"
-}, {name: "Pricing", href: "#pricing"}, {name: "Testimonials", href: "#testimonials"}, {
-    name: "Contact",
-    href: "#contact"
-},]
+const navLinks = [
+    {name: "Home", href: "#home"},
+    {name: "Features", href: "#features"},
+    {name: "Courses", href: "#courses"},
+    {name: "Testimonials", href: "#testimonials"},
+    {name: "Pricing", href: "#pricing"},
+    {name: "Contact", href: "#contact"}
+]
 
 
 const Navbar = () => {
@@ -41,7 +42,7 @@ const Navbar = () => {
         e.preventDefault()
         setIsMobileMenuOpen(false)
         const el = document.querySelector(href)
-        if (el) el.scrollIntoView({behavior: "smooth"})
+        if (el) el.scrollIntoView({behavior: 'smooth'})
 
     }
 

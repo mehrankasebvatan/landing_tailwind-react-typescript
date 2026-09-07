@@ -90,7 +90,7 @@ const features = [
 const Features = () => {
     return (
         <section id="features" className="relative py-24 lg:py-32">
-            <div className="absolute inset-0 bg-liner-to-b from-dark-900 via-dark-800 to-dark-900"/>
+            <div className="absolute inset-0 bg-linear-to-b from-dark-900 via-dark-800 to-dark-900"/>
             <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <SectionHeading
                     badge="Why Choose Us"

@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar.tsx";
 import Hero from "./components/Hero.tsx";
 import Features from "./components/Features.tsx";
 import Courses from "./components/Courses.tsx";
+import Stats from "./components/Stats.tsx";
 
 const App = () => {
     return (
@@ -11,6 +12,7 @@ const App = () => {
                 <Hero/>
                 <Features/>
                 <Courses/>
+                <Stats/>
             </main>
         </div>
     )
