@@ -6,6 +6,7 @@ import Stats from "./components/Stats.tsx";
 import Testimonials from "./components/Testimonials.tsx";
 import Pricing from "./components/Pricing.tsx";
 import Contact from "./components/Contact.tsx";
+import Footer from "./components/Footer.tsx";
 
 const App = () => {
     return (
@@ -20,6 +21,7 @@ const App = () => {
                 <Pricing/>
                 <Contact/>
             </main>
+            <Footer/>
         </div>
     )
 }
